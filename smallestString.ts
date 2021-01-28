@@ -13,6 +13,23 @@
 // Explanation: The numeric value of the string is 1 + 1 + 25 = 27, and it is the smallest string with such a value and length equal to 3.
 
 
+function smallestString(n : number, k : number) : string {
+  // create and empty string
+  // create a currentNumericVal = k
+  // create a alphaNumericMap
+
+  // while string length is less than n
+    // currentCharTarget = currentNumericVal - (n - string.length) + 1
+    // if currentCharTarget >= 26
+      // concat z with string
+      // subtract 26 from currentNumericVal
+    // else
+      // currentChar = alphaNumericMap[currentCharTarget];
+      // subtract currentCharTarget from currentNumericVal
+      // concat currentChar with string
+
+  // return string
+}
 
 
 
