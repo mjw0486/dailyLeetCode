@@ -3,15 +3,14 @@
  * @return {number}
  */
 var numberOfSteps  = function(num) {
-  let currentStep = num;
   let totalSteps = 0;
-  while (currentStep) {
-    console.log(currentStep);
+  while (num) {
+    console.log(num);
     totalSteps += 1;
-    if (currentStep % 2 === 0) {
-      currentStep = currentStep / 2;
+    if (num % 2 === 0) {
+      num = num / 2;
     } else {
-      currentStep -= 1;
+      num -= 1;
     }
   }
   return totalSteps;
